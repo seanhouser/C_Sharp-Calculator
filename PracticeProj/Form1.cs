@@ -25,6 +25,7 @@ namespace PracticeProj
             btnSubtract.Click += calculate;
             btnMultiply.Click += calculate;
             btnDivide.Click += calculate;
+            btnModulo.Click += calculate;
             
         }
 
@@ -48,6 +49,11 @@ namespace PracticeProj
             {
                 result = opr1.Value / opr2.Value;
             }
+            else if (sender == btnModulo) 
+            {
+                result = opr1.Value % opr2.Value;
+            }
+
             rtbResult.Text = result.ToString();
         }
 

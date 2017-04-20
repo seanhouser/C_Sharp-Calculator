@@ -32,9 +32,10 @@
             this.btnSubtract = new System.Windows.Forms.Button();
             this.rtbResult = new System.Windows.Forms.RichTextBox();
             this.btnMultiply = new System.Windows.Forms.Button();
+            this.btnDivide = new System.Windows.Forms.Button();
             this.opr2 = new PracticeProj.Operand();
             this.opr1 = new PracticeProj.Operand();
-            this.btnDivide = new System.Windows.Forms.Button();
+            this.btnModulo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAdd
@@ -75,6 +76,16 @@
             this.btnMultiply.Text = "*";
             this.btnMultiply.UseVisualStyleBackColor = true;
             // 
+            // btnDivide
+            // 
+            this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDivide.Location = new System.Drawing.Point(123, 102);
+            this.btnDivide.Name = "btnDivide";
+            this.btnDivide.Size = new System.Drawing.Size(24, 24);
+            this.btnDivide.TabIndex = 6;
+            this.btnDivide.Text = "/";
+            this.btnDivide.UseVisualStyleBackColor = true;
+            // 
             // opr2
             // 
             this.opr2.Location = new System.Drawing.Point(3, 44);
@@ -92,21 +103,22 @@
             this.opr1.Value = 0;
             this.opr1.Load += new System.EventHandler(this.opr1_Load);
             // 
-            // btnDivide
+            // btnModulo
             // 
-            this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDivide.Location = new System.Drawing.Point(123, 102);
-            this.btnDivide.Name = "btnDivide";
-            this.btnDivide.Size = new System.Drawing.Size(24, 24);
-            this.btnDivide.TabIndex = 6;
-            this.btnDivide.Text = "/";
-            this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnModulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModulo.Location = new System.Drawing.Point(153, 102);
+            this.btnModulo.Name = "btnModulo";
+            this.btnModulo.Size = new System.Drawing.Size(24, 24);
+            this.btnModulo.TabIndex = 7;
+            this.btnModulo.Text = "%";
+            this.btnModulo.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(366, 312);
+            this.Controls.Add(this.btnModulo);
             this.Controls.Add(this.btnDivide);
             this.Controls.Add(this.btnMultiply);
             this.Controls.Add(this.rtbResult);
@@ -130,6 +142,7 @@
         private System.Windows.Forms.Button btnMultiply;
         private System.Windows.Forms.Button btnDivide;
         private System.Windows.Forms.RichTextBox rtbResult;
+        private System.Windows.Forms.Button btnModulo;
     }
 }
 
