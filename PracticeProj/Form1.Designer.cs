@@ -31,12 +31,15 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnSubtract = new System.Windows.Forms.Button();
             this.rtbResult = new System.Windows.Forms.RichTextBox();
+            this.btnMultiply = new System.Windows.Forms.Button();
             this.opr2 = new PracticeProj.Operand();
             this.opr1 = new PracticeProj.Operand();
+            this.btnDivide = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAdd
             // 
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.Location = new System.Drawing.Point(33, 102);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(24, 24);
@@ -46,6 +49,7 @@
             // 
             // btnSubtract
             // 
+            this.btnSubtract.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubtract.Location = new System.Drawing.Point(63, 102);
             this.btnSubtract.Name = "btnSubtract";
             this.btnSubtract.Size = new System.Drawing.Size(24, 24);
@@ -60,6 +64,16 @@
             this.rtbResult.Size = new System.Drawing.Size(100, 96);
             this.rtbResult.TabIndex = 4;
             this.rtbResult.Text = "";
+            // 
+            // btnMultiply
+            // 
+            this.btnMultiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultiply.Location = new System.Drawing.Point(93, 102);
+            this.btnMultiply.Name = "btnMultiply";
+            this.btnMultiply.Size = new System.Drawing.Size(24, 24);
+            this.btnMultiply.TabIndex = 5;
+            this.btnMultiply.Text = "*";
+            this.btnMultiply.UseVisualStyleBackColor = true;
             // 
             // opr2
             // 
@@ -76,19 +90,33 @@
             this.opr1.Size = new System.Drawing.Size(171, 26);
             this.opr1.TabIndex = 0;
             this.opr1.Value = 0;
+            this.opr1.Load += new System.EventHandler(this.opr1_Load);
+            // 
+            // btnDivide
+            // 
+            this.btnDivide.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDivide.Location = new System.Drawing.Point(123, 102);
+            this.btnDivide.Name = "btnDivide";
+            this.btnDivide.Size = new System.Drawing.Size(24, 24);
+            this.btnDivide.TabIndex = 6;
+            this.btnDivide.Text = "/";
+            this.btnDivide.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(366, 312);
+            this.Controls.Add(this.btnDivide);
+            this.Controls.Add(this.btnMultiply);
             this.Controls.Add(this.rtbResult);
             this.Controls.Add(this.btnSubtract);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.opr2);
             this.Controls.Add(this.opr1);
             this.Name = "frmMain";
-            this.Text = "My First App! :)";
+            this.Text = "C# Calculator";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
 
         }
@@ -99,9 +127,9 @@
         private Operand opr2;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnSubtract;
+        private System.Windows.Forms.Button btnMultiply;
+        private System.Windows.Forms.Button btnDivide;
         private System.Windows.Forms.RichTextBox rtbResult;
-
-
     }
 }
 

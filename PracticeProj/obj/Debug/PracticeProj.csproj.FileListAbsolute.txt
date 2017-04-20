@@ -11,3 +11,13 @@ E:\Sean\Documents\GitHub\PracticeProj\PracticeProj\obj\Debug\PracticeProj.Operan
 E:\Sean\Documents\GitHub\C#-Calculator\PracticeProj\bin\Debug\PracticeProj.exe.config
 E:\Sean\Documents\GitHub\C#-Calculator\PracticeProj\obj\Debug\PracticeProj.exe
 E:\Sean\Documents\GitHub\C#-Calculator\PracticeProj\obj\Debug\PracticeProj.pdb
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\bin\Debug\PracticeProj.exe.config
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\obj\Debug\PracticeProj.exe
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\obj\Debug\PracticeProj.pdb
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\obj\Debug\PracticeProj.csprojResolveAssemblyReference.cache
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\obj\Debug\PracticeProj.frmMain.resources
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\obj\Debug\PracticeProj.Operand.resources
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\obj\Debug\PracticeProj.Properties.Resources.resources
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\obj\Debug\PracticeProj.csproj.GenerateResource.Cache
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\bin\Debug\PracticeProj.exe
+E:\Sean\Documents\GitHub\C_Sharp-Calculator\PracticeProj\bin\Debug\PracticeProj.pdb
