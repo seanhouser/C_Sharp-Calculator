@@ -60,9 +60,9 @@
             // 
             // rtbResult
             // 
-            this.rtbResult.Location = new System.Drawing.Point(33, 204);
+            this.rtbResult.Location = new System.Drawing.Point(12, 218);
             this.rtbResult.Name = "rtbResult";
-            this.rtbResult.Size = new System.Drawing.Size(100, 96);
+            this.rtbResult.Size = new System.Drawing.Size(167, 59);
             this.rtbResult.TabIndex = 4;
             this.rtbResult.Text = "";
             // 
@@ -117,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(366, 312);
+            this.ClientSize = new System.Drawing.Size(191, 312);
             this.Controls.Add(this.btnModulo);
             this.Controls.Add(this.btnDivide);
             this.Controls.Add(this.btnMultiply);
